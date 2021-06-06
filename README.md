@@ -1,10 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/aHub-Tech/hubtech?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/aHub-Tech/hubtech?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/aHub-Tech/hubtech?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues-pr-raw/aHub-Tech/hubtech?style=for-the-badge">
-  <img src="https://img.shields.io/github/contributors/aHub-Tech/hubtech?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/aHub-Tech/hubtech?style=for-the-badge">
+  <img src="https://img.shields.io/badge/React-JS-%23478cbf?logo=react&style=for-the-badge">
+	<img src="https://img.shields.io/github/license/aHub-Tech/hubtech?style=for-the-badge">
 </p>
 
 <p align="center">
