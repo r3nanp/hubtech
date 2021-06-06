@@ -1,0 +1,21 @@
+{
+	"name": "A HUB Tech",
+	"short_name": "HUB",
+	"icons": [
+		{
+			"src": "/img/logo.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/img/logo.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"background_color": "#0A0E16",
+	"description": "Sua Central de Tecnologia",
+	"display": "fullscreen",
+	"start_url": "/",
+	"theme_color": "#0A0E16"
+}

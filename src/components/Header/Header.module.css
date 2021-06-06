@@ -1,0 +1,8 @@
+.itemList {
+	@apply transition-colors duration-300 cursor-pointer px-2 py-1 outline-none rounded-sm;
+
+	&:hover,
+	&:focus {
+		@apply bg-h-pink text-white;
+	}
+}
