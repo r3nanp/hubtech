@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aHub-Tech/hubtech/main/public/img/logo.png" alt="Logo da Hub escrito em caixa alta com bordas em neon rosa">
+  <img src="https://raw.githubusercontent.com/aHub-Tech/hubtech/main/public/img/logo.png" alt="Hub logo written in uppercase with pink neon borders">
 </p>
 
 ## 🚀 A place to share knowledge
