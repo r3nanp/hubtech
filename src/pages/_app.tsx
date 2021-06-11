@@ -18,8 +18,8 @@ function App({ Component, pageProps }: AppProps) {
 					content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
 				/>
 			</Head>
-			<div className="min-h-screen h-screen w-full">
-				<Header />
+			<Header />
+			<div className="min-h-screen w-full">
 				<Component {...pageProps} />
 			</div>
 		</>

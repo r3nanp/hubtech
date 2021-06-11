@@ -1,7 +1,5 @@
-import Link from 'next/link';
 import Image from 'next/image';
-
-import styles from './Header.module.css';
+import HeaderLink from './HeaderLink';
 
 const Header = () => {
 	const menus = [
@@ -10,16 +8,35 @@ const Header = () => {
 		{ text: 'Discord', href: '/discord' },
 	];
 
-	const links = menus.map(menu => (
-		<Link href={menu.href} key={menu.text}>
-			<a className={styles.itemList}>{menu.text}</a>
-		</Link>
-	));
+	const links = menus.map(menu => <HeaderLink key={menu.text} {...menu} />);
 
 	return (
-		<header className="flex justify-between items-center w-full px-12 py-6 bg-h-black fixed">
-			<Image src="/img/logo.png" alt="HUB" width={132} height={51} />
-			<nav className="flex space-x-8 text-xl text-white">{links}</nav>
+		<header
+			className="
+				grid
+				grid-cols-header-sm
+				md:grid-cols-header
+				place-items-center
+				items-center
+				h-20
+				w-full
+				px-4
+				md:px-12
+				py-6
+				bg-h-black
+				fixed
+			"
+		>
+			<Image
+				src="/img/logo.png"
+				alt="HUB"
+				layout="intrinsic"
+				width={132}
+				height={51}
+			/>
+			<nav className="flex ml-2 md:ml-0 space-x-2 md:space-x-6 text-base md:text-xl text-white">
+				{links}
+			</nav>
 			<div />
 		</header>
 	);
