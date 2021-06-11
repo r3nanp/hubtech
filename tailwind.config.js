@@ -11,6 +11,11 @@ module.exports = {
 				'h-black': '#0A0E16',
 				'h-pink': '#F72585',
 				'h-bluish-black': '#111827',
+				discord: '#5865F2',
+			},
+			gridTemplateColumns: {
+				'header-sm': '80px 1fr 80px',
+				header: '120px 1fr 120px',
 			},
 		},
 	},
