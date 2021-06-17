@@ -5,7 +5,12 @@ const Header = () => {
 	const menus = [
 		{ text: 'Início', href: '/' },
 		{ text: 'Creators', href: '/creators' },
-		{ text: 'Discord', href: '/discord' },
+		{ text: 'Discord', href: 'https://discord.gg/RMDSHVkDmE', passHref: true },
+		{
+			text: 'Seja Creator',
+			href: 'https://forms.gle/2rLu4BXpbi3bJjYz5',
+			passHref: true,
+		},
 	];
 
 	const links = menus.map(menu => <HeaderLink key={menu.text} {...menu} />);
