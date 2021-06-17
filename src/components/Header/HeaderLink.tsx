@@ -3,12 +3,11 @@ import Link from 'next/link';
 interface IProps {
 	href: string;
 	text: string;
-	passHref?: boolean;
 }
 
 export default function HeaderLink(props: IProps) {
 	return (
-		<Link href={props.href} passHref={props.passHref}>
+		<Link href={props.href}>
 			<a
 				className="
 					transition-colors

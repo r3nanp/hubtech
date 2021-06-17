@@ -5,11 +5,10 @@ const Header = () => {
 	const menus = [
 		{ text: 'Início', href: '/' },
 		{ text: 'Creators', href: '/creators' },
-		{ text: 'Discord', href: 'https://discord.gg/RMDSHVkDmE', passHref: true },
+		{ text: 'Discord', href: '/discord' },
 		{
 			text: 'Seja Creator',
-			href: 'https://forms.gle/2rLu4BXpbi3bJjYz5',
-			passHref: true,
+			href: '/seja-creator',
 		},
 	];
 
