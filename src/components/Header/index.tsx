@@ -6,6 +6,10 @@ const Header = () => {
 		{ text: 'Início', href: '/' },
 		{ text: 'Creators', href: '/creators' },
 		{ text: 'Discord', href: '/discord' },
+		{
+			text: 'Seja Creator',
+			href: '/seja-creator',
+		},
 	];
 
 	const links = menus.map(menu => <HeaderLink key={menu.text} {...menu} />);
